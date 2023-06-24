@@ -1,0 +1,123 @@
+<div class="page-layout">
+  <div class="inside-layout">
+    <div class="panel-header">
+      <div class="card">
+        <p-menubar [model]="items">
+          <ng-template pTemplate="start">
+            <img src="https://primefaces.org/cdn/primeng/images/primeng.svg" height="40" class="mr-2 logo"  alt="logo"/>
+          </ng-template>
+          <ng-template pTemplate="end">
+            <input type="text" pInputText placeholder="Search" class="w-full" />
+          </ng-template>
+        </p-menubar>
+      </div>
+    </div>
+    <div class="ad-img">
+      <img src="https://overclock3d.net/gfx/articles/2019/01/02083611787l.jpg" alt="ad" />
+    </div>
+    <div class="showcase-panel">
+      <div class="filters">
+        <div class="settings">
+          <h3>Type:</h3>
+          <p-checkbox name="groupname" value="val1" label="Core i5"></p-checkbox>
+          <p-checkbox name="groupname" value="val2" label="Core i7"></p-checkbox>
+          <p-divider type="solid"></p-divider>
+          <h3>Company:</h3>
+          <p-checkbox name="groupname" value="val1" label="Dell"></p-checkbox>
+          <p-checkbox name="groupname" value="val2" label="Apple"></p-checkbox>
+          <p-checkbox name="groupname" value="val2" label="Hp"></p-checkbox>
+          <p-divider type="solid"></p-divider>
+          <h3>Rating:</h3>
+          <p-rating [cancel]="false"></p-rating>
+          <p-divider type="solid"></p-divider>
+        </div>
+      </div>
+      <div class="grid-box card flex justify-content-center">
+        <p-card header="I7 Gaming Pc" [style]="{ width: '360px'}">
+          <ng-template pTemplate="header">
+            <img [style]="{objectFit: 'contain'}" alt="Card" height="200" src="https://m.media-amazon.com/images/I/71RFMoSafkL._AC_UF894,1000_QL80_.jpg" />
+          </ng-template>
+          <p>
+            Lorem ipsum dolor s Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, adipisci
+          </p>
+          <p-rating [readonly]="true" [cancel]="false"></p-rating>
+
+
+          <ng-template pTemplate="footer">
+            <div class="flex-box">
+              <h2>$129</h2>
+              <p-button icon="pi pi-shopping-cart" styleClass="p-button-rounded"></p-button>
+            </div>
+          </ng-template>
+        </p-card>
+        <p-card header="Gaming PC" [style]="{ width: '360px'}">
+          <ng-template pTemplate="header">
+            <img [style]="{objectFit: 'contain'}" alt="Card" height="200" src="https://as1.ftcdn.net/v2/jpg/04/60/68/40/1000_F_460684057_FGKvTWG8WNuMrhfogjXI6Q37RGp5OJNy.jpg" />
+          </ng-template>
+          <p>
+            Lorem ipsum dolor s Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, adipisci
+          </p>
+          <p-rating [readonly]="true" [cancel]="false"></p-rating>
+
+
+          <ng-template pTemplate="footer">
+            <div class="flex-box">
+              <h2>$239</h2>
+              <p-button icon="pi pi-shopping-cart" styleClass="p-button-rounded"></p-button>
+            </div>
+          </ng-template>
+        </p-card>
+        <p-card header="Gaming PC" [style]="{ width: '360px'}">
+          <ng-template pTemplate="header">
+            <img [style]="{objectFit: 'contain'}" alt="Card" height="200" src="https://cdn.originpc.com/opc/casecolor/opc-blob-d0ecb2cd-3e12-4333-a868-4e814ebb8fc4.png" />
+          </ng-template>
+          <p>
+            Lorem ipsum dolor s Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, adipisci
+          </p>
+          <p-rating [readonly]="true" [cancel]="false"></p-rating>
+
+
+          <ng-template pTemplate="footer">
+            <div class="flex-box">
+              <h2>$155</h2>
+              <p-button icon="pi pi-shopping-cart" styleClass="p-button-rounded"></p-button>
+            </div>
+          </ng-template>
+        </p-card>
+        <p-card header="Gaming PC" [style]="{ width: '360px'}">
+          <ng-template pTemplate="header">
+            <img [style]="{objectFit: 'contain'}" alt="Card" height="200" src="https://vrlatech.com/wp-content/uploads/2022/11/untitled-48-HDR-EDIT-JPEG-1.jpg.webp" />
+          </ng-template>
+          <p>
+            Lorem ipsum dolor s Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, adipisci
+          </p>
+          <p-rating [readonly]="true" [cancel]="false"></p-rating>
+
+
+          <ng-template pTemplate="footer">
+            <div class="flex-box">
+              <h2>$479</h2>
+              <p-button icon="pi pi-shopping-cart" styleClass="p-button-rounded"></p-button>
+            </div>
+          </ng-template>
+        </p-card>
+        <p-card header="Gaming PC" [style]="{ width: '360px'}">
+          <ng-template pTemplate="header">
+            <img [style]="{objectFit: 'contain'}" alt="Card" height="200" src="https://www.dreamcore.com.sg/wp-content/uploads/CTA-768x768.png" />
+          </ng-template>
+          <p>
+            Lorem ipsum dolor s Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, adipisci
+          </p>
+          <p-rating [readonly]="true" [cancel]="false"></p-rating>
+
+
+          <ng-template pTemplate="footer">
+            <div class="flex-box">
+              <h2>$259</h2>
+              <p-button icon="pi pi-shopping-cart" styleClass="p-button-rounded"></p-button>
+            </div>
+          </ng-template>
+        </p-card>
+      </div>
+    </div>
+</div>
