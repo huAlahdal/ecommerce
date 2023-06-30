@@ -9,6 +9,8 @@ import { CardModule } from 'primeng/card';
 import { RatingModule } from 'primeng/rating';
 import { CheckboxModule } from 'primeng/checkbox';
 import { DividerModule } from 'primeng/divider';
+import { BadgeModule } from 'primeng/badge';
+import { BreadcrumbModule } from 'primeng/breadcrumb';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -31,7 +33,9 @@ import { HomePageComponent } from './home-page/home-page.component';
     CardModule,
     RatingModule,
     CheckboxModule,
-    DividerModule
+    DividerModule,
+    BadgeModule,
+    BreadcrumbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

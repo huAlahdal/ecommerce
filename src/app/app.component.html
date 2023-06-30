@@ -1,1 +1,52 @@
-<app-home-page></app-home-page>
+<div class="container">
+  <div class="announcement">
+    <p>Welcome to our new website!</p>
+  </div>
+
+  <header>
+    <div class="row">
+      <div class="col col-auto">
+        <div class="logo">
+          <a href="#"><img src="assets/tahrej-1.png" width="131" height="135" alt="logo"></a>
+        </div>
+      </div>
+      <div class="col navbar">
+        <div class="row">
+          <div class="col search">
+        <span class="p-input-icon-left">
+          <i class="pi pi-search"></i>
+          <input type="text" pInputText/>
+        </span>
+          </div>
+          <div class="col col-auto buttons">
+            <div class="row buttons">
+              <div class="col-auto">
+                <i
+                  class="pi pi-user p-text-secondary"
+                  style="font-size: 2rem"
+                ></i>
+              </div>
+              <div class="col-auto">
+                <i
+                  class="pi pi-shopping-cart p-text-secondary"
+                  pBadge
+                  style="font-size: 2rem"
+                  value="2"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <div class="ad-img">
+    <img src="https://images.prismic.io/ghostery/439ed08a-cfe4-4dce-90b2-9cb992a0c0c8_how-to-block-ads-on-android.jpg?auto=compress,format" alt="ad">
+  </div>
+
+  <div class="card flex">
+    <p-breadcrumb class="max-w-full" [model]="items" [home]="home"></p-breadcrumb>
+  </div>
+</div>

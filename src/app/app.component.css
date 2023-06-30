@@ -1,0 +1,46 @@
+.announcement {
+  text-align: center;
+  font-size: var(--p-font-size);
+  color: var(--secondary-text-color);
+}
+
+.logo {
+  text-align: center;
+}
+
+.p-input-icon-left {
+  width: 100%;
+}
+
+.p-input-icon-left input {
+  width: 100%;
+}
+
+.navbar {
+  background-color: var(--primary-color);
+  align-self: center;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  padding: 0 15px;
+}
+
+.buttons {
+  align-self: center;
+}
+.buttons i {
+  font-size: 2rem;
+  color: var(--primary-text-color);
+}
+
+.ad-img {
+  margin: 20px;
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+}
+
+.ad-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
